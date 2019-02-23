@@ -1,5 +1,5 @@
 {
-  "name": "Port-folia",
+  "name": "Port_folia",
   "description": "Github Pages Sample.",
   "main": "index.js",
   "version": "0.1.0",
@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit",
-    "build": "webpack",
+    "build": "vue-cli-service build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
