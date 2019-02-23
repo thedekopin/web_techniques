@@ -22,7 +22,8 @@
     <div class="mt-5">
     <b-card-group deck>
       <b-card
-        img-src="../assets/research1.png"
+        img-src="require(../assets/research1.png)"
+        
         img-alt="Image"
         img-top
         tag="article"
