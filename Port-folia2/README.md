@@ -1,4 +1,4 @@
-# pwa-sample
+# my-project2
 
 ## Project setup
 ```

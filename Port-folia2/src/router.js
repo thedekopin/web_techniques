@@ -6,7 +6,7 @@ import About from "./views/About.vue";
 import Languages from "./views/Languages.vue";
 import External_activities from "./views/External_activities.vue";
 import Research from "./views/Research.vue";
-// import Contacts from "./views/Contacts.vue";
+import Contacts from "./views/Contacts.vue";
 
 Vue.use(Router);
 
@@ -38,11 +38,11 @@ export default new Router({
       path: "/research",
       name: "research",
       component: Research
+    },
+    {
+      path: "/contacts",
+      name: "contacts",
+      component: Contacts
     }
-    // {
-    //   path: "/contacts",
-    //   name: "contacts",
-    //   component: Contacts
-    // }
   ]
 });
