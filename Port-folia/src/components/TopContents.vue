@@ -11,6 +11,7 @@
         align="center"
       >
       <b-card-text>自己紹介ページ</b-card-text>
+      <b-button to="/about" variant="info">詳細</b-button>
       </b-card>
 
       <b-card
@@ -21,6 +22,7 @@
         align="center"
       >
       <b-card-text>大学院で行う研究</b-card-text>
+      <b-button to="/research" variant="info">詳細</b-button>
       </b-card>
 
       <b-card
@@ -31,6 +33,7 @@
         align="center"
       >
       <b-card-text>学外での活動</b-card-text>
+      <b-button to="/activity" variant="info">詳細</b-button>
       </b-card>
       
       </b-card-group>
