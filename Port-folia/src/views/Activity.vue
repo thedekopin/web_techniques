@@ -1,7 +1,7 @@
 <template>
   <div id="tools_contents">
     <br>
-    <h1 class="about-page">External activities</h1>
+    <h1 class="about-page">Activity</h1>
     <div class="content">
       <h3>
       Cloud Spiral
@@ -17,7 +17,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 50%;"
+        style="max-width: 100%;"
         class="mb-2"
         border-variant="info"
       ></b-card>
@@ -27,7 +27,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 50%;"
+        style="max-width: 100%;"
         class="mb-2"
         border-variant="info"
       ></b-card>
@@ -37,7 +37,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 50%;"
+        style="max-width: 100%;"
         class="mb-2"
         border-variant="info"
       ></b-card>
@@ -58,7 +58,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 50%;"
+        style="max-width: 100%;"
         class="mb-2"
         border-variant="info"
       ></b-card>
@@ -68,7 +68,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 50%;"
+        style="max-width: 100%;"
         class="mb-2"
         border-variant="info"
       ></b-card>
@@ -78,7 +78,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 50%;"
+        style="max-width: 100%;"
         class="mb-2"
         border-variant="info"
       ></b-card>
@@ -88,10 +88,9 @@
     </div>
   </div>
 </template>
-
 <style>
-.content{
-  margin-top: 10%;
+p{
+  font-size: 1.5rem;
 }
 </style>
 

@@ -1,9 +1,9 @@
 <template>
   <div id="about_contents">
     <br>
-    <h1 class="about-page">About</h1>
-    <b-col cols="2"/>
-    <b-table class="w-50" fixed :fields="fields" :items="items"/>
+    <h1>About</h1>
+    <br>
+    <b-table fixed :fields="fields" :items="items"/>
   </div>
 </template>
 
@@ -39,25 +39,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-h1.about-page{
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-.foto{
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-table {
-  position: absolute;
-  text-align: center;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-</style>

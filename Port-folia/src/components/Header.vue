@@ -11,7 +11,7 @@
           <b-nav-item to="/about">About</b-nav-item>
           <!-- <b-nav-item to="/languages">Languages</b-nav-item> -->
           <b-nav-item to="/research">Research</b-nav-item>
-          <b-nav-item to="/external_activities">External activities</b-nav-item>
+          <b-nav-item to="/activity">Activity</b-nav-item>
           <!-- <b-nav-item to="/contacts">Contacts</b-nav-item> -->
         </b-navbar-nav>
 

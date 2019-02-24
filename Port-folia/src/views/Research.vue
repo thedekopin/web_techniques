@@ -3,16 +3,17 @@
     <br>
     <h1 class="about-page">Research</h1>
     <div class="content">
-      <h3>研究概要</h3>
-      <h5>
+      <h4>研究概要</h4>
         <p>
-          クラウドコンピューティングや IoT などの発展により，サーバ管理技術が重要視されている．
+          <h5>
+            クラウドコンピューティングや IoT などの発展により，サーバ管理技術が重要視されている．
           そのため，大学などの教育機関において AWS などの仮想サーバ環境を用いたサーバ管理演習が行われている．
           サーバ管理演習とは，サーバを構築管理するための技術やノウハウを学べる実習型の演習である．
           そこで，学生の進捗状況把握や課題の誤りを特定する事を目的として，
           サーバ管理演習におけるログを3種類の履歴として記録するログ収集環境と可視化環境としてWebシステムの提案と検討を行なっている．
           この可視化環境の実装には，サーバサイドをPythonとFlaskを用いて実装し，WebフロントをjQueryとbootstrapを用いて実装を行なっている．
           また，Data Tablesというテーブル用のライブラリを利用して，
+          </h5>
         </p>
 
         <!-- <a href="">詳細はこちら</a>  -->
@@ -29,7 +30,7 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 50%;"
+            style="max-width: 100%;"
             class="mb-2"
             border-variant="info"
           ></b-card>
@@ -39,7 +40,7 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 50%;"
+            style="max-width: 100%;"
             class="mb-2"
             border-variant="info"
           ></b-card>
@@ -52,7 +53,7 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 50%;"
+            style="max-width: 100%;"
             class="mb-2"
             border-variant="info"
           ></b-card>
@@ -62,7 +63,7 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 50%;"
+            style="max-width: 100%;"
             class="mb-2"
             border-variant="info"
           ></b-card>
@@ -71,16 +72,3 @@
     </div>
   </div>
 </template>
-
-<style>
-/* h4 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-.content{
-  margin-top: 10%;
-}
-</style>
-
