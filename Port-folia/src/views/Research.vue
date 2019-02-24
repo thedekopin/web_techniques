@@ -1,7 +1,7 @@
 <template>
   <div id="research_contents">
     <br>
-    <h1>Research</h1>
+    <h1 class="about-page">Research</h1>
     <h3>研究概要</h3>
     <h5>
       <p>
@@ -22,8 +22,7 @@
     <div class="mt-5">
     <b-card-group deck>
       <b-card
-        img-src="require(../assets/research1.png)"
-        
+        img-src="../assets/research1.png"
         img-alt="Image"
         img-top
         tag="article"

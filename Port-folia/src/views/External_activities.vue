@@ -1,7 +1,7 @@
 <template>
   <div id="tools_contents">
     <br>
-    <h1>External activities</h1>
+    <h1 class="about-page">External activities</h1>
 
     <h4>
       Cloud Spiral

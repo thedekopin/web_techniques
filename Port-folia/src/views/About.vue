@@ -1,14 +1,14 @@
 <template>
   <div id="about_contents">
     <br>
-    <h1>About</h1>
+    <h1 class="about-page">About</h1>
     <div class="foto">
       <b-img v-bind="mainProps" rounded="circle" alt="Circle image"/>
     </div>
 
     <br>
     <b-col cols="2"/>
-    <b-table class="w-50" fixed :fields="fields" :items="items"/>
+    <b-table fixed :fields="fields" :items="items"/>
   </div>
 </template>
 
@@ -46,15 +46,18 @@ export default {
 </script>
 
 <style lang="scss">
+h1.about-page{
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 .foto{
-  position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 table {
   text-align: center;
-  position: absolute;
   top: 65%;
   left: 50%;
   transform: translate(-50%,-50%);
