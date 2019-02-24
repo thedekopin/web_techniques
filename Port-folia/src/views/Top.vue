@@ -1,9 +1,9 @@
 <template>
   <div class="top">
     <br>
-    <h1 class="top-page">
-      Welcome to My Port-folia
-    </h1> 
+    <h1>
+       Welcome to My Port-folia
+    </h1>
     <TopContents></TopContents>
   </div>
 </template>
@@ -21,7 +21,8 @@ export default {
 </script>
 
 <style>
-h1.top-page{
+.top{
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

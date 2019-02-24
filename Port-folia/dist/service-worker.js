@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d394b8d18c149ab0d90b0a9be4da0b00.js"
+  "/precache-manifest.3c0b085a3d3cadaab0738118a0d82ced.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "thedekopin-portfolia"});

@@ -2,10 +2,10 @@
   <div id="tools_contents">
     <br>
     <h1 class="about-page">External activities</h1>
-
-    <h4>
+    <div class="content">
+      <h3>
       Cloud Spiral
-    </h4>
+    </h3>
     <p>
       <h5>
         enPiTのクラウドコンピューティング分野としてCloud Spiralが開講している．
@@ -85,12 +85,13 @@
     </b-card-group>
     <br>
     競技プログラミングコンテスト
-    <p>
-
-    </p>
-    
-    
-    
-    
+    </div>
   </div>
 </template>
+
+<style>
+.content{
+  margin-top: 10%;
+}
+</style>
+
