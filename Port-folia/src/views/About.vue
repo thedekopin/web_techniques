@@ -24,7 +24,7 @@ export default {
       items: [
         { Key: "Name", Value: "西村　一輝" },
         { Key: "Age", Value: 23 },
-        { Key: "Universary", Value: "大阪工業大学大学院情報科学研究科" },
+        { Key: "University", Value: "大阪工業大学大学院情報科学研究科" },
         { Key: "Github", Value: "thedekopin" },
         { Key: "AtCoder", Value: "kazukazu" }
       ],
